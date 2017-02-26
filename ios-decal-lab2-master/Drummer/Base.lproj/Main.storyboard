@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Drummer View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="DrummerViewController" customModule="Drummer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VC6-f3-uLt">
+                                <rect key="frame" x="8" y="28" width="117" height="191"/>
+                                <color key="backgroundColor" red="0.39586189802347277" green="0.38498178122653876" blue="0.74192438471502586" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="drumButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="A0H-Mj-3pf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UKG-7b-EwT">
+                                <rect key="frame" x="130" y="28" width="117" height="191"/>
+                                <color key="backgroundColor" red="0.57869126051123065" green="0.27955140309798621" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="drumButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7ba-Ld-aHX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CnE-6U-lIR">
+                                <rect key="frame" x="252" y="28" width="117" height="191"/>
+                                <color key="backgroundColor" red="0.62150579146508111" green="0.50397005283321417" blue="0.74192438471502586" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="drumButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eSO-Ww-7CQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsf-4q-fFy">
+                                <rect key="frame" x="8" y="227" width="117" height="191"/>
+                                <color key="backgroundColor" red="0.50203065929330037" green="0.10366706400421521" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="drumButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nkj-Hm-Lzx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vzK-JU-Lnp">
+                                <rect key="frame" x="8" y="426" width="361" height="191"/>
+                                <color key="backgroundColor" red="0.37677728840000002" green="0.59694601700000005" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="drumButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FKF-T8-Lez"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MK1-wa-bSz">
+                                <rect key="frame" x="130" y="227" width="117" height="191"/>
+                                <color key="backgroundColor" red="0.37246878800426064" green="0.076913122676540574" blue="0.74192438471502586" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="drumButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2BP-09-3bK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YK5-UA-NHh">
+                                <rect key="frame" x="252" y="227" width="117" height="191"/>
+                                <color key="backgroundColor" red="0.30148210596291025" green="0.2402065425628935" blue="0.74192438471502586" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <connections>
+                                    <action selector="drumButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="w6N-9n-CoQ"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Drumn Kit Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RB6-PD-3gM">
+                                <rect key="frame" x="16" y="635" width="121" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="lMC-FD-MVs">
+                                <rect key="frame" x="177" y="631" width="182" height="29"/>
+                                <segments>
+                                    <segment title="Acoustic"/>
+                                    <segment title="Electronic"/>
+                                </segments>
+                                <connections>
+                                    <action selector="switchDrum:" destination="BYZ-38-t0r" eventType="valueChanged" id="N7Z-ql-x5L"/>
+                                </connections>
+                            </segmentedControl>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vzK-JU-Lnp" secondAttribute="bottom" constant="50" id="0Ns-UU-qIy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YK5-UA-NHh" secondAttribute="trailing" constant="-10" id="2le-Oh-tK1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RB6-PD-3gM" secondAttribute="bottom" constant="11" id="405-Gq-aWP"/>
+                            <constraint firstItem="UKG-7b-EwT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="4Xd-MC-grd"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vzK-JU-Lnp" secondAttribute="trailing" constant="-10" id="5CN-Rw-230"/>
+                            <constraint firstItem="CnE-6U-lIR" firstAttribute="height" secondItem="UKG-7b-EwT" secondAttribute="height" id="7H9-T2-uYM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="CnE-6U-lIR" secondAttribute="trailing" constant="-10" id="8Cq-lz-fLq"/>
+                            <constraint firstItem="MK1-wa-bSz" firstAttribute="height" secondItem="dsf-4q-fFy" secondAttribute="height" id="96W-XP-gJV"/>
+                            <constraint firstItem="vzK-JU-Lnp" firstAttribute="top" secondItem="YK5-UA-NHh" secondAttribute="bottom" constant="8" id="9H7-if-CdQ"/>
+                            <constraint firstItem="dsf-4q-fFy" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="AaL-F3-u32"/>
+                            <constraint firstItem="YK5-UA-NHh" firstAttribute="top" secondItem="CnE-6U-lIR" secondAttribute="bottom" constant="8" id="B5Z-tc-VDz"/>
+                            <constraint firstItem="dsf-4q-fFy" firstAttribute="top" secondItem="VC6-f3-uLt" secondAttribute="bottom" constant="8" id="B9S-7L-tPa"/>
+                            <constraint firstItem="CnE-6U-lIR" firstAttribute="leading" secondItem="UKG-7b-EwT" secondAttribute="trailing" constant="5" id="BYC-Ic-HGk"/>
+                            <constraint firstItem="YK5-UA-NHh" firstAttribute="leading" secondItem="MK1-wa-bSz" secondAttribute="trailing" constant="5" id="CSk-0g-kHS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="lMC-FD-MVs" secondAttribute="bottom" constant="8" id="CkT-KR-5Yi"/>
+                            <constraint firstItem="YK5-UA-NHh" firstAttribute="height" secondItem="MK1-wa-bSz" secondAttribute="height" id="GFo-Oj-jr9"/>
+                            <constraint firstItem="MK1-wa-bSz" firstAttribute="width" secondItem="dsf-4q-fFy" secondAttribute="width" id="GPZ-cz-K6d"/>
+                            <constraint firstItem="VC6-f3-uLt" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="LTu-xp-lqR"/>
+                            <constraint firstItem="lMC-FD-MVs" firstAttribute="height" secondItem="RB6-PD-3gM" secondAttribute="height" id="MFA-ON-GUP"/>
+                            <constraint firstItem="vzK-JU-Lnp" firstAttribute="top" secondItem="MK1-wa-bSz" secondAttribute="bottom" constant="8" id="MhK-CE-NqF"/>
+                            <constraint firstItem="MK1-wa-bSz" firstAttribute="leading" secondItem="dsf-4q-fFy" secondAttribute="trailing" constant="5" id="NXJ-XC-wCs"/>
+                            <constraint firstItem="CnE-6U-lIR" firstAttribute="width" secondItem="UKG-7b-EwT" secondAttribute="width" id="OdU-M6-E4t"/>
+                            <constraint firstItem="vzK-JU-Lnp" firstAttribute="top" secondItem="dsf-4q-fFy" secondAttribute="bottom" constant="8" id="QZf-vJ-JR1"/>
+                            <constraint firstItem="UKG-7b-EwT" firstAttribute="width" secondItem="VC6-f3-uLt" secondAttribute="width" id="Qzu-tn-ahO"/>
+                            <constraint firstItem="UKG-7b-EwT" firstAttribute="width" secondItem="VC6-f3-uLt" secondAttribute="height" multiplier="117:191" id="R2e-7w-gs1"/>
+                            <constraint firstItem="YK5-UA-NHh" firstAttribute="width" secondItem="MK1-wa-bSz" secondAttribute="width" id="S6q-fS-xhM"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="lMC-FD-MVs" secondAttribute="trailing" id="WVF-aN-c8y"/>
+                            <constraint firstItem="UKG-7b-EwT" firstAttribute="leading" secondItem="VC6-f3-uLt" secondAttribute="trailing" constant="5" id="X7U-l5-ke5"/>
+                            <constraint firstItem="UKG-7b-EwT" firstAttribute="height" secondItem="VC6-f3-uLt" secondAttribute="height" id="ZAi-OQ-O3S"/>
+                            <constraint firstItem="vzK-JU-Lnp" firstAttribute="height" secondItem="dsf-4q-fFy" secondAttribute="height" id="afM-d9-c39"/>
+                            <constraint firstItem="MK1-wa-bSz" firstAttribute="trailing" secondItem="UKG-7b-EwT" secondAttribute="trailing" id="cWt-YU-rE1"/>
+                            <constraint firstItem="dsf-4q-fFy" firstAttribute="height" secondItem="VC6-f3-uLt" secondAttribute="height" id="eJI-p1-RJf"/>
+                            <constraint firstItem="MK1-wa-bSz" firstAttribute="top" secondItem="UKG-7b-EwT" secondAttribute="bottom" constant="8" id="fq1-rV-Dev"/>
+                            <constraint firstItem="CnE-6U-lIR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="i1s-nu-GK8"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="RB6-PD-3gM" secondAttribute="leading" id="rNW-pk-eUL"/>
+                            <constraint firstItem="VC6-f3-uLt" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="wxR-Jv-jNt"/>
+                            <constraint firstItem="vzK-JU-Lnp" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-8" id="znV-oZ-AbJ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>
